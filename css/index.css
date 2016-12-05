@@ -2,14 +2,19 @@ body,html{
     padding:0;
     margin:0;
     font-family: "微软雅黑";
-    width: 100%;
+    font-family: Helvetica;
+   -webkit-text-size-adjust: 100%;
+    -webkit-user-select: none;
+    /*overflow: hidden;*/
     
 }
 ul,li{
     list-style: none;
 }
-a{
+a,button{
+    -webkit-appearance:none;
     text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 .header{
     width: 100%;
@@ -47,7 +52,8 @@ a{
     line-height: 0.48rem;
 }
 .nav{
-    width: 6.9rem;
+    box-sizing: border-box;
+    width: 7.5rem;
     height: 0.8rem;
     background: #4998E7;
     display: flex;
@@ -119,8 +125,52 @@ a{
     top:1.2rem;
 }
 
+.menu2{
+    box-sizing: border-box;
+    background: #49535D;
+    /*width:7.5rem;*/
+    float: left;
+    height: 2.5rem;
+    margin-top: 0.3rem;
+    margin-left:-0.2rem;
+    border-bottom: 0.03rem solid #656E76;
+}
+.menu2 li{
+    width:1.2rem;
+}
+.menu2 li{
+    float: left;
+    color:#fff;
+    font-size: 0.3rem;
+    margin-left: 0.8em;
+    margin-top: 0.35rem;
+}
+.menu2 li:nth-child(1){
+    margin-left:-0.3rem;
+}
+.menu2 li:nth-child(6){
+    margin-left:-0.3rem;
+}
+.menu2 li:nth-child(11){
+    margin-left:-0.3rem;
+}
+.menu2 li a{
+    color:#95A0AC;
+}
 
-
+.denglu{
+    width: 100%;
+    float: left;
+    margin-top: -1rem;
+    height: 0.7rem;
+    background: #49535D;
+    color:#95A0AC;
+    font-size: 0.3rem;
+    line-height: 0.7rem;
+}
+.denglu a{
+    color:#95A0AC;
+}
 /*列表页*/
 .logo1{
     position: absolute;
@@ -279,7 +329,9 @@ a{
     left:4rem;
     top:1.0rem;
 }
-
+.menu3{
+    margin-top: -1.4rem;
+}
 /*详情页*/
 .xila{
     position: absolute;
@@ -296,6 +348,7 @@ a{
     color:#000;
     font-size:0.45rem;
     margin-left: 0.3rem;
+
 }
 .time{
 color:#6F6F6F;
@@ -324,17 +377,65 @@ color:#6F6F6F;
      margin-left: 0.3rem;
  }
 .menu{
+    box-sizing: border-box;
     background: #4998E7;
-    width: 100%;
+    width: 7.5rem;
     float: left;
+    margin-top: -0.0rem;
+    margin-left:-0.2rem;
+}
+.menu li{
+    width:1.1rem;
 }
 .menu li{
     float: left;
     color:#fff;
     font-size: 0.37rem;
-    margin-left: 0.45rem;
+    margin-left: 0.8em;
     margin-top: 0.35rem;
+}
+.menu li:nth-child(1){
+    margin-left:-0.3rem;
+}
+.menu li:nth-child(6){
+    margin-left:-0.3rem;
+}
+.menu li:nth-child(11){
+    margin-left:-0.3rem;
 }
 .menu li a{
     color:#fff;
+}
+
+.menu1{
+    background: #F5F5F5;
+    width: 7.5rem;
+    float: left;
+    margin-top: -0.0rem;
+    margin-left:-0.2rem;
+}
+.menu1 li{
+    width:1.3rem;
+}
+.menu1 li{
+    float: left;
+    color:#fff;
+    font-size: 0.37rem;
+    margin-left: 0.8em;
+    margin-top: 0.35rem;
+}
+.menu1 li:nth-child(1){
+    margin-left:-0.3rem;
+}
+.menu1 li:nth-child(6){
+    margin-left:-0.3rem;
+}
+.menu1 li:nth-child(11){
+    margin-left:-0.3rem;
+}
+.menu1 li a{
+    color:#000;
+}
+.menu4{
+    margin-top: -0.2rem;
 }
