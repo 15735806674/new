@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function resize(origianSize,type){
+            var type=type||"x";
+            if(type=="x"){
+                var clientw=document.documentElement.clientWidth;
+                var html=document.querySelector("html");
+                html.style.fontSize=clientw/origianSize*100+"px";
+            }else if(type=="y"){
+                var clienth=document.documentElement.clientHeight;
+                var html=document.querySelector("html");
+                html.style.fontSize=clienth/origianSize*100+"px";
+            }
+        }
+        window.onload= function(){
+            resize(750);
+        }
+    </script>
+    <script src="js/jquery.js"></script>
+    <script src="js/swiper.jquery.js"></script>
+    <!--<script src="js/swiper.animate1.0.2.min(1).js"></script>-->
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div class="header header1">
+    <div class="logo"></div>
+    <div class="daohang">导航</div>
+</div>
+    <ul class="nav1">
+    <li class="first"><a href="">新闻</a></li>
+        <li ><a href="">社会</a></li>
+        <li><a href="">军事</a></li>
+        <li><a href="">话题</a></li>
+    </ul>
+<div class="banner">
+    <img src="img/11.jpg" alt="">
+</div>
+<p class="xin"><a href="">习近平：推动宪法实施</a></p>
+<span class="xins"><a href="">发展是解决中国所有问题的关键</a></span>
+<p class="xin xin1"><a href="">深港通今日正式开通</a></p>
+<span class="xins"><a href="">"聪明钱"|哪些股票受益？</a></span>
+<span class="xins xins1"><a href="">或难复制沪港通效应"|香港业绩看好</a></span>
+<p class="tody">今日要闻</p>
+<div class="new">
+    <img src="img/pic.jpg" alt="">
+    <a href="">陕西两姐妹受侵害案被告人获死刑</a></div>
+<div class="new new1">
+    <a href="">百炼成钢！跟拍消防战士魔鬼训练 </a></div>
+<div class="new new1">
+    <img src="img/pic.jpg" alt="">
+    <a href="">意总理伦齐承认公投失败宣布辞职 </a></div>
+<div class="new new1">
+    <a href="">菲律宾将释放12名被判监禁中国渔民</a></div>
+<div class="new new1">
+    <a href="">春运车票本月15日开抢 4次捡漏机会</a></div>
+<div class="new new1">
+    <img src="img/pic.jpg" alt="">
+    <a href="">为救父亲14岁少女返火场 全身烧伤</a></div>
+<div class="new new1">
+    <img src="img/pic.jpg" alt="">
+    <a href="">6省份公务员涨工资 最高涨近三千元</a></div>
+<div class="new new1">
+    <img src="img/pic.jpg" alt="">
+     <a href="">韩媒：朴槿惠是否再“谈话”引关注</a></div>
+<div class="new new1">
+    <img src="img/pic.jpg" alt="">
+    <a href="">辅警查案中被杀害焚尸 嫌犯被抓获</a></div>
+<div class="new new1">
+    <img src="img/pic.jpg" alt="">
+    <a href="">北京三甲医院号贩没走 票贩子来了</a></div>
+<div class="new new1">
+    <img src="img/pic.jpg" alt="">
+    <a href="">韩媒：朴槿惠是否再“谈话”引关注</a></div>
+<div class="new new1">
+    <a href="">百炼成钢！跟拍消防战士魔鬼训练</a></div>
+<div class="tu">
+    <img src="img/22.jpg" alt="">
+    <img src="img/33.jpg" alt="">
+    <p class="tu1">大妈秒吞一碗热干面</p>
+    <p class="tu2">男子抱着火煤气罐狂奔</p>
+</div>
+</body>
+</html>

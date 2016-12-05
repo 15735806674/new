@@ -1,0 +1,340 @@
+body,html{
+    padding:0;
+    margin:0;
+    font-family: "微软雅黑";
+    width: 100%;
+    
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height:1rem;
+    border-bottom: 0.01rem solid #99BFE4;
+    background: url("../img/header.png")0.5rem  no-repeat;
+    position: relative;
+}
+.header1{
+    border-bottom: 0.03rem solid #B81919;
+}
+.logo{
+    position: absolute;
+    width: 2.04rem;
+    height: 1.0rem;
+    background: red;
+     left:0.2rem;
+    top: 0.2rem;
+    background: url("../img/logo.png") no-repeat;
+    background-size:2.04rem 0.6rem ;
+}
+.login{
+    position: absolute;
+    float: right;
+    width: 1rem;
+    height:0.48rem;
+    background: #4998E7;
+    border-radius: 0.1rem;
+    font-size:0.38rem;
+    line-height: 0.42rem;
+    color:#fff;
+    right: 0.2rem;
+    top:0.3rem;
+    text-align: center;
+    line-height: 0.48rem;
+}
+.nav{
+    width: 6.9rem;
+    height: 0.8rem;
+    background: #4998E7;
+    display: flex;
+    justify-content:space-around;
+    color:#fff;
+    font-size: 0.38rem;
+    align-items: center;
+}
+.nav:nth-of-type(1){
+    margin-top: -0.03rem;
+}
+.nav:nth-of-type(2){
+    margin-top: -0.4rem;
+}
+.nav li:nth-child(1){
+    margin-left:-0.8rem;
+}
+.nav a{
+  text-decoration: none;
+    color:#fff;
+}
+.swiper-container{
+    width: 100%;
+    height: 4rem;
+    margin-top: -0.4rem;
+}
+.swiper-slide:nth-child(1){
+    width: 100%;
+    height: 4rem;
+    background: url("../img/1.jpg") no-repeat;
+    background-size:7.7rem 4rem;
+}
+.swiper-slide:nth-child(2){
+    width: 100%;
+    height: 4rem;
+    background: url("../img/2.jpg") no-repeat;
+    background-size: 7.7rem 4rem;
+}
+.content{
+    width: 100%;
+    height: 2rem;
+    border-bottom: 0.01rem solid #F2F2F2;
+    position: relative;
+}
+.content img{
+    position: absolute;
+    width:2rem;
+    height: 1.6rem;
+    left: 0.3rem;
+    top:0.2rem;
+}
+.content span{
+    position: absolute;
+    width: 4.5rem;
+    color:#848484;
+    font-size: 0.35rem;
+    right:0.3rem;
+    top:0.2rem;
+}
+.content a{
+    text-decoration: none;
+    color:#000;
+}
+.content p{
+    position: absolute;
+    color:#BFBFBF;
+    font-size: 0.3rem;
+   left:2.6rem;
+    top:1.2rem;
+}
+
+
+
+/*列表页*/
+.logo1{
+    position: absolute;
+    width: 2.04rem;
+    height: 1.0rem;
+    background: red;
+    left:0.2rem;
+    top: 0.2rem;
+    background: url("../img/logo.png") no-repeat;
+    background-size:2.04rem 0.6rem ;
+}
+.daohang{
+    position: absolute;
+    float: right;
+    width: 1.5rem;
+    height:0.48rem;
+    border-radius: 0.1rem;
+    font-size:0.38rem;
+    line-height: 0.42rem;
+    color:#B30808;
+    right: 0.4rem;
+    top:0.3rem;
+    line-height: 0.48rem;
+    background: url("../img/down.png") no-repeat 0.9rem 0.2rem;
+}
+.nav1{
+    width: 5.5rem;
+    height:0.5rem;
+    display: flex;
+    justify-content: space-between;
+    color:#000;
+    font-size: 0.35rem;
+    align-items: center;
+}
+.nav1 li a{
+    color:#000;
+    text-decoration: none;
+}
+.nav1 li:first-child{
+    background: #B30808;
+    padding: 0.1rem 0.2rem;
+    border-radius: 0.1rem;
+    color:#fff;
+}
+.nav1 .first a{
+     color:#fff;
+ }
+.banner{
+    width: 100%;
+    height: 3.8rem;
+    background: red;
+}
+.banner img{
+    width: 100%;
+    height: 3.8rem;
+}
+.xin{
+    display: block;
+    color:#003471;
+    font-size: 0.5rem;
+}
+.xin1{
+    float: left;
+    margin-top: 0.4rem;
+}
+.xin a{
+    color:#003471;
+    text-decoration: none;
+    padding:0.1rem 1.2rem;
+}
+.xins{
+    display: block;
+    color:#333333;
+    font-size: 0.38rem;
+    float: left;
+    margin-top:-0.3rem;
+}
+.xins a{
+    color:#333;
+    text-decoration: none;
+    padding: 0 0.9rem;
+}
+.xins1{
+     margin-top: 0.1rem;
+ }
+.xins1 a{
+    padding: 0 0.4rem;
+}
+.tody{
+    display: block;
+    color:#B2060C;
+    font-size: 0.5rem;
+    float: left;
+    margin-top: 0.5rem;
+    font-weight: bold;
+    margin-left: 0.2rem;
+}
+.new{
+    width: 6.7rem;
+    height:0.6rem;
+    border-bottom: 0.01rem solid #E0E0E0;
+    float: left;
+    line-height: 0.5rem;
+    margin-top: -0.1rem;
+    margin-left: 0.3rem;
+
+}
+.new img{
+    display: block;
+    float: left;
+    width: 0.5rem;
+    height: 0.3rem;
+}
+.new1 img{
+    margin-top: 0.3rem;
+}
+.new a{
+    display: block;
+    float: left;
+    color:#000;
+    font-size: 0.37rem;
+    margin-left: 0.8rem;
+    margin-top: -0.43rem;
+}
+.new1 a{
+    margin-left: 0.1rem;
+    margin-top: 0.2rem;
+}
+.new1{
+    height: 0.8rem;
+}
+.tu{
+    width: 100%;
+    height: 3.5rem;
+    float: left;
+    margin-top: 0.3rem;
+    position: relative;
+}
+.tu img{
+    width: 3.5rem;
+    height: 1.8rem;
+}
+.tu1{
+    display: block;
+    color:#fff;
+    font-size: 0.3rem;
+    position: absolute;
+    left:0.5rem;
+    top:1.0rem;
+}
+.tu2{
+    display: block;
+    color:#fff;
+    font-size: 0.3rem;
+    position: absolute;
+    left:4rem;
+    top:1.0rem;
+}
+
+/*详情页*/
+.xila{
+    position: absolute;
+    float: right;
+    width: 0.45rem;
+    height:0.78rem;
+    right: 0.4rem;
+    top:0.33rem;
+    background: url("../img/icon.png") no-repeat -0.4rem 0;
+    background-size: 2.4rem 0.4rem;
+}
+.title{
+    display: block;
+    color:#000;
+    font-size:0.45rem;
+    margin-left: 0.3rem;
+}
+.time{
+color:#6F6F6F;
+ font-size: 0.3rem;
+    display: block;
+    margin-left: 0.4rem;
+}
+.con{
+    color:#000;
+    font-size: 0.37rem;
+    display: block;
+    margin-left: 0.3rem;
+}
+.showt{
+    width: 100%;
+    height: 5rem;
+}
+.showt img{
+    width: 100%;
+    height: 5rem;
+}
+.con1{
+     color:#000;
+     font-size: 0.37rem;
+     display: block;
+     margin-left: 0.3rem;
+ }
+.menu{
+    background: #4998E7;
+    width: 100%;
+    float: left;
+}
+.menu li{
+    float: left;
+    color:#fff;
+    font-size: 0.37rem;
+    margin-left: 0.45rem;
+    margin-top: 0.35rem;
+}
+.menu li a{
+    color:#fff;
+}
