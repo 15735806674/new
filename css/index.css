@@ -379,8 +379,8 @@ color:#6F6F6F;
 .menu{
     box-sizing: border-box;
     background: #4998E7;
-    width: 7.5rem;
     float: left;
+    height: 2.7rem;
     margin-top: -0.0rem;
     margin-left:-0.2rem;
 }
