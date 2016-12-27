@@ -1,7 +1,6 @@
 body,html{
     padding:0;
     margin:0;
-    font-family: "微软雅黑";
     font-family: Helvetica;
    -webkit-text-size-adjust: 100%;
     -webkit-user-select: none;
@@ -51,6 +50,16 @@ a,button{
     text-align: center;
     line-height: 0.48rem;
 }
+.login a{
+    color:#fff;
+}
+.navs{
+    box-sizing: border-box;
+    width: 7.5rem;
+    height: 2.0rem;
+
+    margin-top:-0.39rem;
+}
 .nav{
     box-sizing: border-box;
     width: 7.5rem;
@@ -63,10 +72,13 @@ a,button{
     align-items: center;
 }
 .nav:nth-of-type(1){
-    margin-top: -0.03rem;
+    margin-top: -0.0rem;
 }
 .nav:nth-of-type(2){
     margin-top: -0.4rem;
+}
+.nav:nth-of-type(4){
+    margin-top: 0.3rem;
 }
 .nav li:nth-child(1){
     margin-left:-0.8rem;
@@ -74,6 +86,27 @@ a,button{
 .nav a{
   text-decoration: none;
     color:#fff;
+}
+.nav3{
+    box-sizing: border-box;
+    width: 7.5rem;
+    height: 0.8rem;
+    background: #4998E7;
+    display: flex;
+    justify-content:space-around;
+    color:#fff;
+    font-size: 0.38rem;
+    align-items: center;
+}
+.nav3 li:nth-child(1){
+    margin-left:-0.8rem;
+}
+.nav3 a{
+    text-decoration: none;
+    color:#fff;
+}
+.nav3{
+    margin-top: -0.45rem;
 }
 .swiper-container{
     width: 100%;
@@ -83,7 +116,7 @@ a,button{
 .swiper-slide:nth-child(1){
     width: 100%;
     height: 4rem;
-    background: url("../img/1.jpg") no-repeat;
+    background: url("../img/a.jpg") no-repeat;
     background-size:7.7rem 4rem;
 }
 .swiper-slide:nth-child(2){
@@ -170,6 +203,29 @@ a,button{
 }
 .denglu a{
     color:#95A0AC;
+}
+
+/*修改轮播点*/
+.swiper-pagination-bullet {
+    width:10px;
+    height: 10px;
+    display: inline-block;
+    background: #fff;
+    /*border:1px solid #fff;*/
+
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom:0px;
+    right: 100px;
+    /*width: 100%;*/
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 7px;
+}
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background:blue;
+
 }
 /*列表页*/
 .logo1{
@@ -438,4 +494,255 @@ color:#6F6F6F;
 }
 .menu4{
     margin-top: -0.2rem;
+}
+
+
+/*登录页*/
+.logins{
+    width: 100%;
+    height:13.34rem;
+    background: #EEEEEE;
+    box-sizing: border-box;
+}
+.logos{
+    box-sizing: border-box;
+    width:4.48rem ;
+    height: 2rem;
+    background: red;
+    float: left;
+    margin-top:1.5rem;
+    margin-left:1.5rem;
+    background: url("../img/logo.png") no-repeat;
+    background-size: 4.48rem 1.5rem;
+}
+.user{
+    width: 5.76rem;
+    height: 0.88rem;
+    background:#fff;
+    float: left;
+    box-sizing: border-box;
+    margin-left:0.9rem;
+    margin-top: 0.5rem;
+    border-bottom: 0.01rem solid #999;
+}
+.user input{
+    width: 5rem;
+    height: 0.7rem;
+    outline: none;
+    float: left;
+    margin-left: 0.3rem;
+    margin-top: 0.1rem;
+    color:#CCCCCC;
+    font-size: 0.35rem;
+    border: none;
+}
+.pass{
+    width: 5.76rem;
+    height: 0.88rem;
+    background:#fff;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 0.9rem;
+}
+.pass input{
+    width: 5rem;
+    height: 0.7rem;
+    outline: none;
+    float: left;
+    margin-left: 0.3rem;
+    margin-top: 0.1rem;
+    color:#CCCCCC;
+    font-size: 0.35rem;
+    border: none;
+}
+.deng{
+    width: 5.8rem;
+    height: 0.88rem;
+    background: #146FDF;
+    float: left;
+    margin-left:0.9rem;
+    margin-top: 0.6rem;
+    color:#fff;
+    font-size: 0.38rem;
+    line-height: 0.88rem;
+    text-align: center;
+}
+.dengs{
+    width: 5.8rem;
+    height: 0.88rem;
+    background: #E7E7E7;
+    border: 0.05rem solid #BBCEE5;
+    float: left;
+    margin-left:0.9rem;
+    margin-top: 0.4rem;
+    color:#146FDF;
+    font-size: 0.38rem;
+    line-height: 0.88rem;
+    text-align: center;
+}
+.dengs a{
+    color:#146FDF;
+}
+.wang{
+    color:#246183;
+    float: left;
+    font-size: 0.3rem;
+    display: block;
+    margin-top:0.5rem;
+    margin-left:0.9rem;
+}
+.zhuce{
+    color:#246183;
+    float: right;
+    font-size: 0.3rem;
+    display: block;
+    margin-top:0.5rem;
+    margin-right:0.9rem;
+}
+.zhuce a{
+    color:#246183;
+}
+.pss1{
+     margin-top: 0.05rem;
+}
+
+
+/*评论页*/
+.header2{
+    border-bottom: 0.05rem solid #3882CC;
+}
+.comment{
+    width:7rem;
+    height:1.32rem;
+    box-sizing: border-box;
+    margin-left: 0.25rem;
+    margin-top: 0.2rem;
+    background: #F4F4F4;
+}
+.comment textarea{
+    width: 6.5rem;
+    height: 1.2rem;
+    color:#A9A9A9;
+    font-size: 0.3rem;
+    text-indent: 0.1rem;
+    margin-top: 0.02rem;
+    margin-left: 0.2rem;
+    background: #F4F4F4;
+    border:none;
+    resize : none;
+    outline: none;
+}
+.comment_zi{
+    color:#317ECB;
+    font-size: 0.33rem;
+    display: block;
+    float: left;
+    margin-left: 0.3rem;
+    margin-top: 0.3rem;
+}
+.fabiao{
+  width: 1.02rem;
+    height:0.6rem;
+    background: #4998E7;
+    float:right;
+    margin-right: 0.3rem;
+    margin-top: 0.2rem;
+    color:#fff;
+    font-size: 0.35rem;
+    text-align: center;
+    line-height: 0.6rem;
+}
+.hot{
+    box-sizing: border-box;
+    background: #EFEFEF;
+    color:#4998E7;
+    font-size: 0.3rem;
+    width: 100%;
+    height: 0.6rem;
+    text-indent: 0.3rem;
+    margin-top:1.1rem;
+    line-height: 0.6rem;
+}
+.pinglun{
+    width: 100%;
+    height: 3.7rem;
+    box-sizing: border-box;
+    margin-top: 0.3rem;
+}
+.pinglun h3{
+    color:#ADB1B5;
+    font-size: 0.3rem;
+    margin-top: 0.2rem;
+    margin-left: 0.3rem;
+}
+.pinglun .contents{
+    display: block;
+    color:#212121;
+    font-size: 0.3rem;
+    width: 6.8rem;
+    margin-top: 0.2rem;
+    margin-left: 0.3rem;
+}
+.pinglun .times{
+    float: left;
+    color:#A7ABAF;
+    font-size: 0.35rem;
+    margin-top: 0.3rem;
+    margin-left: 0.3rem;
+}
+.pinglun .zan{
+    float: left;
+    width: 1.36rem;
+    height: 0.56rem;
+    border: 0.02rem solid #EDEDED;
+    margin-top:-0.5rem;
+    margin-left:4.5rem;
+    position: relative;
+}
+.pinglun .zan .tut{
+    width: 0.36rem;
+    height: 0.4rem;
+    position: absolute;
+    left:0.2rem;
+    top:0.1rem;
+    background: url("../img/zan.png")0 0 no-repeat;
+    background-size:  0.72rem 0.3rem;
+}
+.pinglun .zan .number{
+    width: 0.4rem;
+    height: 0.4rem;
+    position: absolute;
+   right:0.3rem;
+    top:0.1rem;
+    color:#898E94;
+    font-size: 0.34rem;
+}
+.pinglun .replay{
+    float: left;
+    width: 1.1rem;
+    height: 0.56rem;
+    border: 0.02rem solid #EDEDED;
+    margin-top:-0.6rem;
+    margin-left:6rem;
+    position: relative;
+    color:#898E94;
+    font-size: 0.34rem;
+    line-height: 0.56rem;
+    text-align: center;
+}
+.pinglun1{
+    height:2.5rem;
+}
+.pinglun1 h3{
+    margin-left: 0.7rem;
+    margin-top: 0.5rem;
+}
+.pinglun1 .contents{
+    margin-left: 0.7rem;
+}
+.pinglun1 .times{
+    margin-left: 0.7rem;
+}
+.pinglun1 .zan{
+    margin-left: 5.7rem;
 }

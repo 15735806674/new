@@ -9,4 +9,11 @@ $(function(){
         $(".menu1").toggle();
 
     })
+
+
+    $(".navs").hide();
+    $(".more").click(function(){
+        $(".navs").toggle();
+
+    })
 })

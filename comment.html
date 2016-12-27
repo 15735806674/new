@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function resize(origianSize,type){
+            var type=type||"x";
+            if(type=="x"){
+                var clientw=document.documentElement.clientWidth;
+                var html=document.querySelector("html");
+                html.style.fontSize=clientw/origianSize*100+"px";
+            }else if(type=="y"){
+                var clienth=document.documentElement.clientHeight;
+                var html=document.querySelector("html");
+                html.style.fontSize=clienth/origianSize*100+"px";
+            }
+        }
+        window.onload= function(){
+            resize(750);
+        }
+    </script>
+    <script src="js/jquery.js"></script>
+    <script src="js/swiper.jquery.js"></script>
+    <!--<script src="js/swiper.animate1.0.2.min(1).js"></script>-->
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div class="header header1 header2">
+    <div class="logo"></div>
+    <div class="xila">
+    </div>
+</div>
+<ul class="menu">
+    <li><a href="index.html">首页</a></li>
+    <li><a href="">新闻</a></li>
+    <li><a href="">财经</a></li>
+    <li><a href="">娱乐</a></li>
+    <li><a href="">体育</a></li>
+    <li><a href="">证券</a></li>
+    <li><a href="">军事</a></li>
+    <li><a href="">科技</a></li>
+    <li><a href="">数码</a></li>
+    <li><a href="">时尚</a></li>
+    <li><a href="">汽车</a></li>
+    <li><a href="">游戏</a></li>
+    <li><a href="">房产</a></li>
+    <li><a href="">星座</a></li>
+    <li><a href="">视频</a></li>
+</ul>
+<div class="comment">
+    <textarea name="" id="" cols="30" rows="10" placeholder="文明上网，理性发言"></textarea>
+</div>
+ <p class="comment_zi">请登录后发表评论</p>
+<div class="fabiao">发表</div>
+<div class="hot">最热评论</div>
+
+<div class="pinglun">
+    <h3>在云端</h3>
+    <p class="contents">我看过原版的漫画书，在庞大的日本漫画领域并不算那么出色。中国不乏能写好故事的作者，但缺乏能把握细腻情感的漫画电影编剧和导演，中国资本方对漫画电影理解与最求也问题，一味追求大题材大意境，结果常常跑偏，《大鱼海棠》就是典型的例子。</p>
+    <span class="times">今天09:36:20</span>
+    <div class="zan">
+        <div class="tut"></div>
+        <div class="number">758</div>
+    </div>
+    <div class="replay">回复</div>
+</div>
+
+<div class="pinglun">
+    <h3>徐莉</h3>
+    <p class="contents">国内的技术能做到，但讲故事的能力仍欠缺，就凭那心情澎湃，时间苍促，恨不得跳回去让所有人躲在安全位置那一幕，情感的牵绊，那种感觉，国人仍需努力！</p>
+    <span class="times">今天09:45:14</span>
+    <div class="zan">
+        <div class="tut"></div>
+        <div class="number">555</div>
+    </div>
+    <div class="replay">回复</div>
+</div>
+
+<div class="pinglun">
+    <h3>青丝长发倾在</h3>
+    <p class="contents">刚开始还有点看不懂，越到后面越明白，然后又倒回去看一遍，看到最后的时候，也不知道怎么滴眼泪就出来了，感情真的很丰富！</p>
+    <span class="times">今天10:45:14</span>
+    <div class="zan">
+        <div class="tut"></div>
+        <div class="number">334</div>
+    </div>
+    <div class="replay">回复</div>
+</div>
+
+<div class="pinglun">
+    <h3>青丝长发倾在</h3>
+    <p class="contents">刚开始还有点看不懂，越到后面越明白，然后又倒回去看一遍，看到最后的时候，也不知道怎么滴眼泪就出来了，感情真的很丰富！</p>
+    <span class="times">今天10:45:14</span>
+    <div class="zan">
+        <div class="tut"></div>
+        <div class="number">334</div>
+    </div>
+    <div class="replay">回复</div>
+</div>
+
+<div class="pinglun">
+    <h3>落叶飘零</h3>
+    <p class="contents">“你的名字”是在电影院看的，故事情节感觉真的很棒，画质很精致每一帧都可以做屏保质，“大鱼海棠”画质也不错，但是故事情节太坑爹了，为报恩可以无所顾忌不顾及他人生死，甚至给自己的族人带来灭族的后果，想教化人有感恩的心，但是节奏没有把握好，最后的结尾是最大的败笔，“无法无天的感恩心”</p>
+    <span class="times">20分钟前</span>
+    <div class="zan">
+        <div class="tut"></div>
+        <div class="number">334</div></div>
+        <div class="replay">回复</div>
+
+
+</div>
+<div class="pinglun pinglun1">
+    <h3>赵昊</h3>
+    <p class="contents">秦时明月很不错呀，你们不喜欢看吗</p>
+    <span class="times">今天10:45:14</span>
+    <div class="zan">
+        <div class="tut"></div>
+        <div class="number">3</div>
+    </div>
+</div>
+
+<footer>
+    <ul class="menu2">
+        <li><a href="">首页</a></li>
+        <li><a href="">新闻</a></li>
+        <li><a href="">财经</a></li>
+        <li><a href="">娱乐</a></li>
+        <li><a href="">体育</a></li>
+        <li><a href="">证券</a></li>
+        <li><a href="">军事</a></li>
+        <li><a href="">科技</a></li>
+        <li><a href="">数码</a></li>
+        <li><a href="">时尚</a></li>
+        <li><a href="">汽车</a></li>
+        <li><a href="">游戏</a></li>
+        <li><a href="">房产</a></li>
+        <li><a href="">星座</a></li>
+        <li><a href="">视频</a></li>
+    </ul>
+    <div class="denglu"><a href="">[登录]   </a></div>
+</footer>
+</body>
+</html>
